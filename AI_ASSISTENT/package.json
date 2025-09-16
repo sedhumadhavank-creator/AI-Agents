@@ -1,0 +1,34 @@
+{
+  "name": "ai-assistant-chrome-extension",
+  "version": "1.0.0",
+  "description": "AI Assistant Chrome Extension with backend service",
+  "main": "ai-service.js",
+  "scripts": {
+    "start": "node ai-service.js",
+    "dev": "nodemon ai-service.js",
+    "build": "echo 'No build step required for Chrome extension'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "chrome-extension",
+    "ai-assistant",
+    "openai",
+    "chatbot",
+    "browser-extension"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.0",
+    "express-rate-limit": "^7.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
+
